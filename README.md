@@ -4,6 +4,7 @@
 ![IgorLGPLexplanation](https://user-images.githubusercontent.com/61757638/149677339-13d5c962-333c-40ef-9653-f4fe8809d2be.png)
 
 ---
+
 Changed default theme to:
 <img src="https://i.imgur.com/PDEay1u.png" alt="default theme">
 
