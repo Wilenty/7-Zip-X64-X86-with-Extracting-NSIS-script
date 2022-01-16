@@ -1,5 +1,9 @@
 # 7-Zip 21.07 X64-X86 with Extracting NSIS script
+---
+<https://sourceforge.net/p/sevenzip/discussion/45797/thread/cc72419c6f/#826f>:
+![IgorLGPLexplanation](https://user-images.githubusercontent.com/61757638/149677339-13d5c962-333c-40ef-9653-f4fe8809d2be.png)
 
+---
 Changed default theme to:
 <img src="https://i.imgur.com/PDEay1u.png" alt="default theme">
 
