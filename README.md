@@ -60,6 +60,9 @@ zcl.exe (7z.dll client) supports only three following commands:
 ```
 And it needs 7z.dll to work.
 
+The 32-bit (x86) version works on all OS's from Windows XP and newer,
+and 64-bit (x64) version works on all 64-bit OS's from Windows XP-64 and above.
+
 P.S.
 It was compiled using VS2015CE.
 
@@ -83,3 +86,9 @@ Above text taken from there: <https://www.techopedia.com/definition/3502/lesser-
 
 ## Credits
 * <https://www.7-zip.org>
+
+## Homepage of additional plugins used in the plus versions:
+* <https://www.tc4shell.com/en/7zip/>
+
+## Credits
+* <https://www.tc4shell.com/>
