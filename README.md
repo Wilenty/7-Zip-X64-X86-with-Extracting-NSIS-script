@@ -5,6 +5,7 @@
 
 ---
 
+
 Changed default theme to, and added the "Extension" tab to sort by file-type - the column empty, but works:
 <img src="https://i.imgur.com/Md00J0J.png" alt="current default theme">
 
