@@ -1,12 +1,15 @@
-# 7-Zip 22.00 X64-X86 with Extracting NSIS script
+# 7-Zip 22.01 X64-X86 with Extracting NSIS script
 ---
 <https://sourceforge.net/p/sevenzip/discussion/45797/thread/cc72419c6f/#826f>:
 ![IgorLGPLexplanation](https://user-images.githubusercontent.com/61757638/149677339-13d5c962-333c-40ef-9653-f4fe8809d2be.png)
 
 ---
 
-Changed default theme to:
-<img src="https://i.imgur.com/PDEay1u.png" alt="default theme">
+Changed default theme to, and added the "Extension" tab to sort by file-type - the column empty, but works:
+<img src="https://i.imgur.com/Md00J0J.png" alt="current default theme">
+
+**Portable versions are compiled to support external 7z.dll, codecs, formats and hashes.**
+By default all Portable versions supports internal Codecs, Formats and Hashes, but if you will place the 7z.dll file and/or Codecs/Formats folder(s) - it will be used also (explanation below).
 
 **Installers with Plus (+), OtherFiles and Portable versions contains by default the following**
    *codecs*:
@@ -30,6 +33,9 @@ Changed default theme to:
        chd
        ecm
 
+`cmd.exe /k 7z.exe i`:
+<img src="https://i.imgur.com/o6aBNyA.png" alt="cmd.exe /k 7z.exe i">
+
 **Added possibility to use External DLL's by the following Portables:**
    7za.exe (Standalone Console)
    7zFM.exe (File Manager Standalone)
@@ -37,6 +43,9 @@ Changed default theme to:
    7zz.exe (Standalone 2 Console)
 If the 7z.dll file exist in this same location as the above mentioned portables, external 7z.dll file will be used instead of internal codecs.
 (Please don't care about the error about missing 7z.dll file in above files - it's normal)
+
+`cmd.exe /k 7zz.exe i`:
+<img src="https://i.imgur.com/FhVLua1.png" alt="cmd.exe /k 7zz.exe i">
 
 **Other files includes (x86/x64):**
    7z.dll (7z Plugin)
