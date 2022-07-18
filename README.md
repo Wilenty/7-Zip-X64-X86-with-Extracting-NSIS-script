@@ -5,7 +5,7 @@
 
 ---
 
-Changed default theme to, and added the "Extension" tab to sort by file-type - the column empty, but works:
+Changed default theme to, and added the "Extension" tab to sort by file-type - the column is empty, but works:
 <img src="https://i.imgur.com/Md00J0J.png" alt="current default theme">
 
 **Portable versions are compiled to support external 7z.dll, codecs, formats and hashes.**
