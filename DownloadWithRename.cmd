@@ -2,6 +2,7 @@
 :: Script created by Wileny,
 :: you can modify it and use on your website, but you must clearly wrote who is the author and from where you get it
 rem used wget command-line version from there: https://eternallybored.org/misc/wget/
+rem or you can use the https://github.com/lifenjoiner/wget-for-windows/releases/latest mentioned by pasha-zzz
 :: adds this text at the end of the existing name, but before extension
 set Add=_Wilenty-Mod_
 set page=https://github.com/Wilenty/7-Zip-X64-X86-with-Extracting-NSIS-script/releases
